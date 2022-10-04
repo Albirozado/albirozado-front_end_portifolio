@@ -261,6 +261,7 @@ animation: process .7s infinite;
     bottom: 0;
     right: 0.5rem;
     z-index: 1000;
+    display: none;
 
   }
 
