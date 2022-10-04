@@ -14,17 +14,34 @@ function typeWriter(elemento) {
 
 
 let navbar = document.querySelector(".nav")
- let contar = 250
+let comunica = document.querySelector(".comunica")
+let headerIcone = document.querySelector(".header_icons")
+let contar = 250
+let contar2 = 550
 
 document.addEventListener('scroll', () => {
-  var scroll_position = window.scrollY;
+  let scroll_position = window.scrollY;
   if (scroll_position > contar) {
     navbar.classList.add("active")
    } else {
     navbar.classList.remove("active")
+
   }
 });
 
+document.addEventListener('scroll', () => {
+  let scroll_position = window.scrollY;
+  if (scroll_position > contar2) {
+    comunica.style.display = "block"
+    headerIcone.style.display = "none"
+   } else {
+    headerIcone.style.display = "block"
+    comunica.style.display = "none"
+
+    
+
+  }
+});
 
 
 let menuBar = document.querySelector(".links")

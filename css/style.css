@@ -241,15 +241,39 @@ animation: process .7s infinite;
     left: 50%;
     transform: translate(-50%, -50%);    
     
+
+    
   }
+
   .header .header_icons a{
     color: #0197f6;
     opacity: 0.5;
-
   }
   .header .header_icons a:hover{
     opacity: 1;
   }
+  .comunica{
+    font-size: 3rem;
+    margin: 0;
+    position: fixed;
+    right: 2rem;
+    bottom: 0;
+    bottom: 0;
+    right: 0.5rem;
+    z-index: 1000;
+
+  }
+
+  .comunica a{
+    display: block;
+    color: #0197f6;
+    opacity: 0.5;
+  }
+  
+  .comunica a:hover{
+    opacity: 1;
+  }
+
   /*
 
   @keyframes blink {
@@ -716,14 +740,30 @@ animation: process .7s infinite;
     gap: 1.5rem;
     overflow: hidden;
     margin-top: 2rem;
-    
+    height: 66rem;
+    overflow-y: auto;
+    border: 1px #02182b solid;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 1rem 1rem 2rem ;
+}
+.terceiro_container .container::-webkit-scrollbar{
+    width: .8rem;
 
+}
+
+.terceiro_container .container::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.terceiro_container .container::-webkit-scrollbar-thumb{
+    background: #0197f6;
+    border-radius: 5rem;
 }
 
 
 
 .terceiro_container .box h3{
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 .terceiro_container .box .btn{
     display: flex;
@@ -866,7 +906,10 @@ animation: process .7s infinite;
 
 
 
-
+.terceiro_container strong{
+    text-transform: lowercase;
+    
+}
 
 
 
@@ -892,7 +935,7 @@ animation: process .7s infinite;
 }
 
 
-  @media(max-width: 952px){
+@media(max-width: 952px){
     .header .nav{
         padding: 1rem 2% 0;
     }
