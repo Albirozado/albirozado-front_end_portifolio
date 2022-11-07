@@ -26,41 +26,41 @@
         <header class="header">
             <section class="section_especial">
                 <nav class="nav">
-                <div class="logo">
-                    <i class="fa-solid fa-angle-left"></i>  <a href="index.html">Port<span>fólio</span></a><i class="fa-solid fa-angle-right"></i>
-                </div>
-                <div class="links">
-                    <i class="fa-solid fa-xmark"></i>
-                    <div class="informacao">
-                        <a href="index.html" class="pausa">inicio</a>
-                        <a href="#sobre">sobre</a>
-                        <a href="#habilidades">especialidades</a>
-                        <a href="#projetos">projetos</a>
-                        <a href="#servicos">serviços</a>
-                        <a href="#contactos">contactos</a>    
+                    <div class="logo">
+                        <i class="fa-solid fa-angle-left"></i>  <a href="index.html">Port<span>fólio</span></a><i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="links">
+                        <i class="fa-solid fa-xmark"></i>
+                        <div class="informacao">
+                            <a href="index.html" class="pausa">home</a>
+                            <a href="#sobre">sobre</a>
+                            <a href="#habilidades">especialidades</a>
+                            <a href="#projetos">projetos</a>
+                            <a href="#servicos">serviços</a>
+                            <a href="#contactos">contactos</a>    
+                        </div>
+                    </div>
+                    <div class="menu_bar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+                <div class="conteudo">
+                    <div class="text">
+                        <h6>ola</h6>
+                        <h3>eu sou <span class="maquina_de_escever_nome">albirozado simione</span></h3>
+                        <p>desenvolvedor front-end <span>&</span> web designer</p>
+                        <button class="button-48" role="button"><span class="text"><a href="#sobre">sobre</a></span></button>
+                    </div>
+                    <div class="imagem">
+                        <img src="/imagens/development-4536630_1280.png" alt="">
                     </div>
                 </div>
-                <div class="menu_bar">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="header_icons">
+                    <a href="https://github.com/Albirozado" target="_blank" class="iconzera"><i class="fa-brands fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/albirosaldo-front-end" target="_blank" class="iconzera"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/albirosaldoalfredo.simione.1" target="_blank" class="iconzera"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/bino_alfredo_/" target="_blank" class="iconzera"><i class="fa-brands fa-instagram-square"></i></a>
                 </div>
-            </nav>
-            <div class="conteudo">
-                <div class="text">
-                    <h6>ola</h6>
-                    <h3>eu sou <span class="maquina_de_escever_nome">albirozado simione</span></h3>
-                    <p>desenvolvedor front-end</p>
-                    <button class="button-48" role="button"><span class="text"><a href="#sobre">sobre</a></span></button>
-                </div>
-                <div class="imagem">
-                    <img src="/imagens/development-4536630_1280.png" alt="">
-                </div>
-            </div>
-            <div class="header_icons">
-                <a href="https://github.com/Albirozado" target="_blank" class="iconzera"><i class="fa-brands fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/albirosaldo-front-end" target="_blank" class="iconzera"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/albirosaldoalfredo.simione.1" target="_blank" class="iconzera"><i class="fa-brands fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/bino_alfredo_/" target="_blank" class="iconzera"><i class="fa-brands fa-instagram-square"></i></a>
-            </div>
             
     
             </section>
@@ -106,15 +106,19 @@
             <div class="habilidades">
                 <div class="primeiro_flex">
                     <div class="progress">
-                        <h3> html <span> 95% </span> </h3>
+                        <h3> html & css<span> 80% </span> </h3>
                         <div class="bar"> <span></span> </div>
                     </div>
                     <div class="progress">
-                        <h3> css <span> 60% </span> </h3>
+                        <h3> javasScript <span> 35% </span> </h3>
                         <div class="bar"> <span></span> </div>
                     </div>
                     <div class="progress">
-                        <h3> javasscript <span> 35% </span> </h3>
+                        <h3> PHP <span> 20% </span> </h3>
+                        <div class="bar"> <span></span> </div>
+                    </div>
+                    <div class="progress">
+                        <h3> MySQL <span>30% </span> </h3>
                         <div class="bar"> <span></span> </div>
                     </div>
                     <div class="progress">
@@ -159,81 +163,132 @@
                 <h1>projetos</h1>
                 <p>meus projetos</p>
             </div>
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button" onclick="openCity('London')">Recentes</button> <span>|</span>
+                <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Outros (2020)</button>
+              </div>
+
             <div class="container terceirocontainer">
-                <div class="box">
-                    <div class="image">
-                    <img src="/imagens/produtos.png" alt="">
-                    </div>
-                    <h3>puma cards - (ficticio)</h3>
-                    <p>html | css | js | Photoshop | Adobe XD </p>
-                    <div class="btn">
-                        <button class="button-48 b49 b50" role="button"><span class="text"><a href="https://pumacarts.web.app" target="_blank"><strong>ver projeto</strong></a></span></button>
-                    </div>
-                </div>
+                <div id="London" class="w3-container city container terceirocontainer">  
 
                 <div class="box">
+                    <a href="#" target="_blank">
                     <div class="image">
-                    <img src="/imagens/slider_shoes.png" alt="">
+                    <img src="/imagens/make.png" alt="">
+                        <div class="oresto">
+                            <div class="centerthis">
+                                <h3>clinica</h3>
+                                <p>html | css | js | Photoshop | Adobe XD | Adobe Ilustrator</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Shoes home slider - (ficticio)</h3>
-                    <p>html | css | js | Photoshop | Adobe XD </p>
-                    <div class="btn">
-                        <button class="button-48 b49 b50" role="button"><span class="text"><a href="https://shoeslider.netlify.app" target="_blank"><strong>ver projeto</strong></a></span></button>
-                    </div>
+                    </a>
                 </div>
-                <div class="box">
-                    <div class="image">
-                    <img src="/imagens/build.png" alt="">
+                    <div class="box">
+                        <a href="https://pumacarts.web.app" target="_blank">
+                        <div class="image">
+                        <img src="/imagens/produtos.png" alt="">
+                            <div class="oresto">
+                                <div class="centerthis">
+                                    <h3>puma cards</h3>
+                                    <p>html | css | js | Photoshop | Adobe XD </p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
                     </div>
-                    <h3>landing page - buildD (ficticio)</h3>
-                    <p>html | css | js | Photoshop | Adobe XD </p>
-                    <div class="btn">
-                        <button class="button-48 b49 b50" role="button"><span class="text"><a href="https://buildd.netlify.app" target="_blank"><strong>ver projeto</strong></a></span></button>
-                    </div>
-                </div>
 
-                <div class="box">
-                    <div class="image">
-                    <img src="/imagens/petshop.png" alt="">
+                    <div class="box">
+                        <a href="https://shoeslider.netlify.app" target="_blank">
+                        <div class="image">
+                        <img src="/imagens/slider_shoes.png" alt="">
+                        <div class="oresto">
+                            <div class="centerthis">
+                                <h3>Shoes home slider</h3>
+                                <p>html | css | js | Photoshop | Adobe XD </p>
+                            </div>
+                        </div>
+                        </div>
+                        </a>
                     </div>
-                    <h3>landing page - petShop (ficticio)</h3>
-                    <p>html | css | js | Photoshop | Adobe XD </p>
-                    <div class="btn">
-                        <button class="button-48 b49 b50" role="button"><span class="text"><a href="https://dogshope.netlify.app" target="_blank"><strong>ver projeto</strong></a></span></button>
+ 
+                    <div class="box">
+                        <a href="https://dogshope.netlify.app" target="_blank">
+                        <div class="image">
+                        <img src="/imagens/petshop.png" alt="">
+                        <div class="oresto">
+                            <div class="centerthis">
+                                <h3>landing page - petShop</h3>
+                                <p>html | css | js | Photoshop | Adobe XD </p>
+                            </div>
+                        </div>
+                        </div>
+                         </a>
+                    </div> 
+                    
                     </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                      <img src="/imagens/ecommerce.png" alt="">
+                
+
+                  <div id="Paris" class="w3-container city container terceirocontainer paris" style="display:none">
+                    <div class="box">
+                        <a href="https://buildd.netlify.app" target="_blank">
+                        <div class="image">
+                        <img src="/imagens/build.png" alt="">
+                        <div class="oresto">
+                            <div class="centerthis">
+                                <h3>landing page - buildD</h3>
+                                <p>html | css | js | Photoshop | Adobe XD </p>
+                            </div>
+                        </div>
+                        </div>
+                      </a>
                     </div>
-                    <h3>ecommerce (ficticio)</h3>
-                    <p>html | css | js</p>
-                    <div class="btn">
-                        <button class="button-48 b49 b50" role="button"><span class="text"><a href="https://ninaclothes.netlify.app" target="_blank"><strong>ver projeto</strong></a></span></button>
+                    <div class="box">
+                        <a href="https://ninaclothes.netlify.app" target="_blank">
+                        <div class="image">
+                          <img src="/imagens/ecommerce.png" alt="">
+                          <div class="oresto">
+                                <div class="centerthis">
+                                    <h3>ecommerce (ficticio)</h3>
+                                    <p>html | css | js</p>
+                                </div>
+                            </div>
+                        </div>
+                         </a>
+                    </div>       
+                    <div class="box">
+                        <a href="https://coffeshope.netlify.app" target="_blank">
+                        <div class="image">
+                            <img src="/imagens/coffe.png" alt="">
+                            <div class="oresto">
+                                <div class="centerthis">
+                                    <h3>loja de caffe (clone)</h3>
+                                    <p>html | css | js</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                     </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="/imagens/coffe.png" alt="">
+                    <div class="box">
+                        <a href="https://dasrosas.netlify.app" target="_blank">
+                        <div class="image">
+                        <img src="/imagens/vai_saber.png" alt="">
+                        <div class="oresto">
+                            <div class="centerthis">
+                                <h3>loruki (clone)</h3>
+                                <p>html | css </p>
+                            </div>
+                        </div>
+                        </div>
+                     </a>
                     </div>
-                    <h3>loja de caffe (clone)</h3>
-                    <p>html | css | js</p>
-                    <div class="btn">
-                        <button class="button-48 b49 b50" role="button"><span class="text"><a href="https://coffeshope.netlify.app" target="_blank"><strong>ver projeto</strong></a></span></button>
                     </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                    <img src="/imagens/vai_saber.png" alt="">
                     </div>
-                    <h3>loruki (clone)</h3>
-                    <p>html | css </p>
-                    <!--<p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa enim laboriosam vero nostrum minima, eius voluptatum </p>-->
-                    <div class="btn">
-                        <button class="button-48 b49 b50" role="button"><span class="text"><a href="https://dasrosas.netlify.app" target="_blank"><strong>ver projeto</strong></a></span></button>
-                    </div>
-                </div>
-            </div>
+                    
+
+                  
+    
+
     
     
     
@@ -254,7 +309,7 @@
                 <div class="webdev">
                     <i class="fa-solid fa-paintbrush"></i>
                     <h3>web designer</h3>
-                    <p>velocidade do carregamento, tipografia e Escaneabilida</p>
+                    <p>velocidade de carregamento, tipografia e Escaneabilida</p>
                 </div>
                 <div class="webdev">
                     <i class="fa-solid fa-mobile-button"></i>
@@ -271,7 +326,7 @@
         <section class="quarto_container" id="contactos">
             <div class="parte_do_titulo">
                 <h1>contatos</h1>
-                <p>me contacte</p>
+                <p>me encontre</p>
             </div>
             <div class="my_service">
                 <div class="webdev">
@@ -290,7 +345,7 @@
                 <div class="webdev">
                     <i class="fa-solid fa-location-dot"></i>
                     <h3>localização</h3>
-                    <p>maputo, cidade da matola bairro da liberdade.</p>
+                    <p>maputo, cidade da matola, bairro da liberdade.</p>
     
                 </div>
     
@@ -303,7 +358,7 @@
                         <input type="hidden" name="redirectTo" value="https://frontendport.netlify.app">
                         <input type="text" placeholder="nome" name="name" id="name" class="box">
                         <input type="email" placeholder="email" name="email" id="email" class="box">
-                        <input type="number" placeholder="numero" name="phone" id="phone" class="box">
+                        <input type="number" placeholder="telefone" name="phone" id="phone" class="box">
                         <textarea name="message" placeholder="messagem" id="message" cols="30" rows="10"></textarea>
                         <input type="submit" class="btn" value="enviar">
                     </form>
