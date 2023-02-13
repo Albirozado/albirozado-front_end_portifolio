@@ -60,7 +60,7 @@ window.onscroll = () =>{
 function loading(){
   document.querySelector(".processa_box").style.display = "none"
  var a = document.querySelector(".tudo")
- a.style.visibility = "visible"
+ a.style.display = "block"
  window. sr = ScrollReveal({ reset: true });
 //sr.reveal(".imageScale", { duration: 1000, scale: 0.85})
 sr.reveal(".primeiro_flex", { duration: 1000, distance: "150px"})

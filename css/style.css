@@ -96,7 +96,7 @@ section{
 
 }
 .tudo{
-    visibility:hidden;
+    display: none;
 }
 .processa_box{
     position: absolute;
